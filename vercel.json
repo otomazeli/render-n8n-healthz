@@ -3,11 +3,5 @@
     "api/poll.js": {
       "runtime": "nodejs18.x"
     }
-  },
-  "crons": [
-    {
-      "path": "/api/poll",    // Path to your serverless function
-      "schedule": "*/30 * * * *"  // Every 30 seconds
-    }
-  ]
+  }
 }
