@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "api/poll.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "cron": {
+    "schedules": [
+      {
+        "path": "/api/poll",
+        "schedule": "*/30 * * * *"  // Every 30 seconds (adjust as necessary)
+      }
+    ]
+  }
+}
