@@ -1,15 +1,16 @@
 {
-  "name": "render-n8n-healthz",
-  "version": "1.0.0",
+  "name": "nextjs-api-poller",             // Make sure your app name is enclosed in double quotes
+  "version": "1.0.0",                      // Version is a string
+  "private": true,                         // Private is optional, but it must be valid JSON syntax
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev",                     // Scripts must have valid key-value pairs
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "axios": "^0.27.2",
-    "next": "^13.0.0",  // Specify Next.js version here
-    "react": "18.x.x",
-    "react-dom": "18.x.x"
+    "axios": "^0.27.2",                    // Use valid keys, string values, and commas between properties
+    "next": "^12.3.0",                     // Or whatever version of Next.js you're using
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
